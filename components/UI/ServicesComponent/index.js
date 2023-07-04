@@ -26,14 +26,7 @@ export const ServicesComponent = ({isMobile}) => {
         inViewImage && gsap.to('.image_', {
             transform: 'scale(1)', ease: Elastic.easeIn
         })
-        // inView && gsap.to('.slimFont', {
-        //     ease: Back.easeOut.config(
-        //         .7), delay: 1, fontWeight: '300'
-        // })
-        // inView && gsap.to('.heavyFont', {
-        //     ease: Back.easeOut.config(
-        //         .7), delay: 1, fontWeight: '600'
-        // })
+
 
     }, [inViewImage])
     useEffect(() => {

@@ -29,17 +29,17 @@ export const ContactUsComponent = ({ isMobile }) => {
     }, [inViewDiv])
     return (
         <>
-            <Box ref={refDiv} sx={{ height: isMobile ? '40vh':'80vh',my:isMobile ? 10:0 }}>
+            <Box ref={refDiv} sx={{ height: isMobile ? '40vh' : '80vh', my: isMobile ? 10 : 0 }}>
                 <Box display='flex' justifyContent={'center'} sx={{ transform: 'scale(0)' }} className='imageContact'>
                     <Image src='/contact.png' width={isMobile ? 300 : 500} height={isMobile ? 300 : 500} alt='' />
-                </Box>
-                <Box display='flex' justifyContent={'center'} sx={{ opacity: 0 }} className='textcontact'>
-                    <Typography variant='body1' fontFamily={'Montserrat'} textAlign='center'>We are thrilled to connect with you at GUINTI.<br /> If you have any questions, comments, or would like to discuss a project, please don t hesitate to get in touch with us.<br /> We are here to assist you. <br />We look forward to hearing from you and working together to bring your digital ideas to life!</Typography>
                 </Box>
                 <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', my: 4, transform: 'scale(0)' }} className='animationContact'>
                     <Box sx={{ width: isMobile ? '200px' : '300px' }}>
                         <Lottie animationData={animation} loop={true} />
                     </Box>
+                </Box>
+                <Box display='flex' justifyContent={'center'} sx={{ opacity: 0 }} className='textcontact'>
+                    <Typography variant='body1' fontFamily={'Montserrat'} textAlign='center'>We are thrilled to connect with you at GUINTI.<br /> If you have any questions, comments, or would like to discuss a project, please don t hesitate to get in touch with us.<br /> We are here to assist you. <br />We look forward to hearing from you and working together to bring your digital ideas to life!</Typography>
                 </Box>
             </Box>
         </>
