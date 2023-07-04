@@ -57,7 +57,7 @@ export const ServicesComponent = ({isMobile}) => {
                     <Typography variant='body1' sx={{ fontFamily: 'Montserrat', textAlign: isMobile ? 'center' : 'auto' }}>We specialize in <span className="heavyFont">digital transformation</span> for <span className="slimFont">businesses</span>. </Typography>
                 </Box>
                 <Box sx={{ opacity: 0 ,my:isMobile ? 2:1}} className='textServices' display={'flex'} justifyContent={'center'}>
-                    <Typography variant='body1' sx={{ fontFamily: 'Montserrat', textAlign: isMobile ? 'center' : 'auto' }}>Our <span className="slimFont">personalized approach and expertise </span> in digital transformation provide you with a <span className="heavyFont">competitive edge</span> in today's market
+                    <Typography variant='body1' sx={{ fontFamily: 'Montserrat', textAlign: isMobile ? 'center' : 'auto' }}>Our <span className="slimFont">personalized approach and expertise </span> in digital transformation provide you with a <span className="heavyFont">competitive edge</span> in today s market
                     </Typography>
                 </Box>
                 <Box sx={{ opacity: 0,my:isMobile ? 2:1 }} className='textServices' display={'flex'} justifyContent={'center'}>
