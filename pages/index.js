@@ -44,7 +44,7 @@ export default function Home() {
       <Divider sx={{ my: 1 }} />
       <footer>
         <Box sx={{ mt: 10, mb:2}}>
-          <Typography variant='body1' textAlign={'center'}>All rights reserverd. Royer LLC</Typography>
+          <Typography variant='body1' textAlign={'center'}>All rights reserverd. Guinti LLC</Typography>
         </Box>
       </footer>
     </>
